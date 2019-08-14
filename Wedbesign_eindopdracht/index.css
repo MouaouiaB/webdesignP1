@@ -1,0 +1,430 @@
+body{
+	font-family:'Montserrat', Arial, sans-serif;
+	font-size: 16px;
+	margin: auto;
+	background: white;
+}
+
+/*---- header style ----*/
+.logo{
+	height: 8%;
+	width: 10%;
+	margin-top:30px;
+	margin-left: 30px;
+	margin-bottom: -30px;
+	padding: 0;
+
+
+}
+
+#menu{
+	list-style-type: none;
+	list-style: none;
+	margin-bottom: 30px;
+	padding: 2px;
+
+}
+
+.bar{
+	float:right;
+}
+
+.a1{
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	color: #4682B4;
+	background-color: white;
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 30px;
+
+}
+.a1:hover{
+	color:#002e5b;
+	text-decoration: none;
+}
+
+/*---- footer style ----*/
+.footer{
+	background-color: #002e5b;
+	color: gray; 
+	padding: 20px;
+	margin:auto;
+	height: auto;
+	width: auto;
+	
+}
+
+.footerlinks{
+	margin: 0;
+	padding: 0;
+	list-style: none; 
+}
+
+
+.link{
+	color: gray;
+	text-decoration: none;
+	font-size: 14px; 
+}
+
+.link:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+.title{
+	color: yellow;
+	font-size: 17px;
+}
+
+.copy{
+	color: gray;
+	font-style: italic;
+	font-size: 11px;
+	text-align: left;
+	margin-left: 0px;
+	margin-top: 30px;
+}
+
+
+/*---- Body style ----*/
+img.slider{
+	height: 100%;
+	width: 100%;
+}
+
+
+/*------------------------------ Pagina Home --------------------------------*/
+/*deel 1 -HOME PAGINA*/
+#call-to-action-1 {
+	background-color: #002e5b;
+	padding: 50px 0;
+}
+
+#call-to-action-1 h3 {
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+#call-to-action-1 p {
+	color: gray;
+	font-size: 15px;
+}
+
+#call-to-action-1 .btn-primary {
+	border-color: #002e5b;
+	background: transparent; 
+	margin-top: 50px;
+	color: #002e5b;
+	background-color:yellow;
+}
+/*deel 2 -HOME PAGINA*/
+.title1 {
+	color: #002e5b;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.aligncenter{
+	text-align: center;
+}
+
+.point{
+	text-align: center;
+	color: #002e5b;
+	font-weight: 400;
+}
+
+#call-to-action-2{
+	background: white;
+	padding: 50px ;
+}
+/*deel 3 -HOME PAGINA*/
+#call-to-action-3{
+	background-color: #F0F0F0;
+	padding: 50px; 
+}
+
+#call-to-action-3 p{
+	color: gray;
+	font-size: 15px;
+}
+
+#call-to-action-3 .btn-primary {
+	border-color: yellow;
+	background: transparent; 
+	margin-top: 50px;
+	color: #002e5b;
+	background-color:yellow;
+}
+
+.title2 {
+	color: #002e5b;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+
+
+
+/*--------------------------Pagina Contact---------------------------*/
+.contact{
+	
+	margin-bottom: 70px;
+	margin-top: 70px;
+}
+
+img.contact-image{
+	height: 300px; 
+	width: 300px;
+}
+
+.contact_name{
+	color: #002e5b; 
+}
+
+.contact_data{
+	color: #002e5b;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.contact_link{
+	color: #4682B4;
+	list-style: none;
+	text-decoration: none;
+}
+
+#call-to-action-mention{
+	background: #F0F0F0;
+	padding: 50px;
+}
+
+.mention{
+	color: gray;
+	font-size: 15px;
+}
+
+/*--------------------------Pagina Informatie---------------------------*/
+img.images {
+	width:90%;
+}
+
+img { width: 5%; }
+
+#actieplanTable{
+	max-width:90%;
+  	height:100%;
+}
+
+.pageTitle{
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+/* Part: Actieplan */
+#headline1{
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#firstPart{
+	background-color: white;
+	padding: 50px;
+}
+
+#firstPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+.button1{
+	border-color: #002e5b;
+	background: transparent; 
+	margin: 10px;
+	color: #F0F0F0;
+	background-color:#002e5b;
+}
+/* part: SMART formuleren */
+#headline2{
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#secondPart{
+	background-color: white;
+	padding: 50px;
+}
+
+#secondPart h3{
+	color: #002e5b;
+	font-weight: 600;
+
+}
+
+#secondPart .lijst p{
+	color: gray;
+}
+
+#secondPart .lijst{
+	color: gray;
+	font-size: 15px;
+}
+
+.title3 {
+	color: #002e5b;
+	font-weight: 600;
+}
+/* Part: Doelen SMART formuleren */
+#thirdPart{
+	background-color: white;
+	padding: 50px;
+}
+
+#lijst1 {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F0F0F0;
+    color: gray;
+    margin-top: 20px;
+
+}
+
+#lijst2 {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #F0F0F0;
+    color: gray;
+    margin-top: 20px;
+}
+
+.attention {
+	color: red;
+	font-weight: bold;
+	margin-left: 20px;
+}
+ol {
+	white-space: pre-line;
+}
+/* Part: Reflectie */
+#headline3{
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#fourthPart{
+	background-color: white;
+	padding: 50px;
+}
+
+#fourthPart p{
+	color: gray;
+	font-size: 15px;
+}
+/* Part: Conclusie */
+#headline4{
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#fifthPart{
+	background-color: white;
+	padding: 50px;
+}
+
+#fifthPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+/*--------------------------Pagina Opleiding: Informatica---------------------------*/
+/*Prat: Wat is Informatica */
+#headline5 {
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#sixthPart {
+	background-color: white;
+	padding: 50px;
+}
+
+#sixthPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+/*Part: Informatie over studiepunten*/
+#headline6 {
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#seventhPart {
+	background-color: white;
+	padding: 50px;
+}
+
+#seventhPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+/*Part: Toelatingeisen*/
+#headline7 {
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#eighthPart {
+	background-color: white;
+	padding: 50px;
+}
+
+#eighthPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+/*Part: Beroepen na studie*/
+#headline8 {
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#ninthPart {
+	background-color: white;
+	padding: 50px;
+}
+
+#ninthPart p{
+	color: gray;
+	font-size: 15px;
+}
+
+/*Part: Vervolgstudies*/
+#headline9 {
+	background-color: #002e5b;
+	padding: 50px;
+}
+
+#tenthPart {
+	background-color: white;
+	padding: 50px;
+}
+
+#tenthPart p{
+	color: gray;
+	font-size: 15px;
+}
